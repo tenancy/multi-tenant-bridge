@@ -1,0 +1,31 @@
+{
+    "name": "tenancy/bridge-hyn-multi-tenant",
+    "description": "Provides a bridge to port functionality of hyn/multi-tenant to tenancy/tenancy",
+    "keywords": ["database", "tenancy", "hyn"],
+    "license": "MIT",
+    "require": {
+        "tenancy/framework": "*",
+        "hyn/multi-tenant": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tenancy\\Bridge\\Hyn\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniël Klabbers",
+            "email": "daniel@klabbers.email",
+            "homepage": "http://luceos.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tenancy\\Bridge\\Hyn\\HynServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
