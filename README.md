@@ -1,4 +1,3 @@
-- remove hyn/multi-tenant from composer.json
 - install tenancy/bridge-hyn-multi-tenant
 
 ## Lost

@@ -4,8 +4,8 @@
     "keywords": ["database", "tenancy", "hyn"],
     "license": "MIT",
     "require": {
-        "tenancy/framework": "*",
-        "hyn/multi-tenant": "^5.3"
+        "tenancy/tenancy": "*",
+        "hyn/multi-tenant": ">= 5.3"
     },
     "autoload": {
         "psr-4": {
