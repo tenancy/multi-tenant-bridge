@@ -1,4 +1,4 @@
-- install tenancy/bridge-hyn-multi-tenant
+- install tenancy/multi-tenant-bridge
 
 ## Lost
 

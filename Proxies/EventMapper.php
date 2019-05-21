@@ -16,9 +16,7 @@ class EventMapper
 
     public function subscribe(Dispatcher $events)
     {
-        $events = array_keys($this->map);
-
-        $events->listen($events, [$this, 'proxy']);
+        $events->listen(array_keys($this->map), [$this, 'proxy']);
     }
 
     public function proxy($event)

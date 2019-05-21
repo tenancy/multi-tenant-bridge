@@ -1,5 +1,5 @@
 {
-    "name": "tenancy/bridge-hyn-multi-tenant",
+    "name": "tenancy/multi-tenant-bridge",
     "description": "Provides a bridge to port functionality of hyn/multi-tenant to tenancy/tenancy",
     "keywords": ["database", "tenancy", "hyn"],
     "license": "MIT",
@@ -7,9 +7,17 @@
         "tenancy/tenancy": "*",
         "hyn/multi-tenant": ">= 5.3"
     },
+    "require-dev": {
+        "laravel/laravel": "5.8.*"
+    },
     "autoload": {
         "psr-4": {
             "Tenancy\\Bridge\\Hyn\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     },
     "authors": [
